@@ -1,6 +1,6 @@
 @echo off
 REM ---------------------------------------------------------------------
-REM sync-or-clone.bat
+REM clone-sync.bat
 REM ---------------------------------------------------------------------
 REM Reads a list of repos from repos.txt in the format "owner/repo".
 REM Checks if the local directory for each repo already exists.
