@@ -8,11 +8,13 @@ A simple bat script to use github cli to backup a list of repositories
    `winget install -e --id GitHub.cli`
 3. Clone this repo
   `git clone https://github.com/tonybenoy/github-noob-sync.git`
-4. Create a repos.txt file with a list of repos
+4. Move to cloned directory `cd github-noob-sync`
+5.  Create a repos.txt file with a list of repos
    ```tonybenoy/aa
    tonybenoy/bb
    ```
-5. Run the clone-sync.bat
-   `./clone-sync.bat`
+6. Authenticate github CLI `gh auth login`
+7. Run the clone-sync.bat
+   `clone-sync.bat`
    
 
