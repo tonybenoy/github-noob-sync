@@ -1,4 +1,4 @@
-# github-noob-sync
+# Github noob sync
 A simple bat script to use github cli to backup a list of repositories
 
 ## Usage
@@ -9,8 +9,9 @@ A simple bat script to use github cli to backup a list of repositories
 3. Clone this repo
   `git clone https://github.com/tonybenoy/github-noob-sync.git`
 4. Move to cloned directory `cd github-noob-sync`
-5.  Create a repos.txt file with a list of repos
-   ```tonybenoy/aa
+5.  Create a repos.txt file with a list of repos `<username/org>/<reponame>`
+   ```
+   tonybenoy/aa
    tonybenoy/bb
    ```
 6. Authenticate github CLI `gh auth login`
